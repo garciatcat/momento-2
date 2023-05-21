@@ -83,7 +83,9 @@ body {
     width: 190%;
     height: 200%;
     color: white;
-    padding: 10px;
+    /* padding: 10px; */
+    margin: 0px 0px;
+    margin-left: -45%;
     display: flex;
    
   }
@@ -91,6 +93,7 @@ body {
   .column {
     flex: 1;
     margin-right: 20px;
+    margin-left: 10%;
   }
 
   .column:last-child {
