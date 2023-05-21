@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Comic sans-serif;
+  background-color: #e1d3a8;
+  }
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  .header {
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  .header img {
+  max-width: 100%;
+  height: auto;
+  background-color: white;
+  }
+  .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  .buttons a {
+  text-decoration: none;
+  }
+  .buttons button {
+  margin: 0 10px;
+  padding: 1px 15px;
+  font-size: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a1a097;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Courier New', Courier;
+  }
+  .buttons button:hover {
+  background-color: #005fa3;
+  }
+  .buttons .left {
+  margin-left: 0;
+  }
+  .buttons .center {
+  margin-right: auto;
+  margin-left: auto;
+  }
+  .buttons .right {
+  margin-right: 0;
+  }
+  .buttons .right {
+  margin-right: 0;
+  }
+  main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  }
+ 
+ 
+  .image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  border-radius: 15px;
+  }
+ 
+  .image {
+  width: 100%;
+  margin: 50px;
+  }
+
+  footer {
+    
+    background-color: black;
+    background-position: 0px;
+    width: 190%;
+    height: 200%;
+    color: white;
+    padding: 10px;
+    display: flex;
+   
+  }
+
+  .column {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .column:last-child {
+    margin-right: 0;
+  }
+   
+  
+ 
